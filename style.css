@@ -7,6 +7,7 @@ body {
 }
 
 
+/* Quote section */
 .quote {
     display: flex;
     background-color: #E5E7EB;
@@ -35,3 +36,45 @@ body {
     margin-left: 300px;;
 }
 
+
+/* Newsletter section */
+div .newsletter {
+    display: flex;
+    background-color: rgb(56, 130, 246);
+    color: rgb(249, 250, 248);
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 150px;
+    margin: 200px 300px;
+    border-radius: 12px;
+}
+.newsletter .body {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter .header {
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.newsletter .text {
+    font-size: 22px;
+}
+
+.newsletter .sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(56, 130, 246);
+    color: rgb(249, 250, 248);
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    width: 190px;
+    border-color: rgb(249, 250, 248);
+    border-width: 4px;
+    padding: 11px 15px;
+    border-radius: 10px;
+}
