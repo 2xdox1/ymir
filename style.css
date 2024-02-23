@@ -1,0 +1,37 @@
+body {
+    font-family: roboto;
+    margin: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 150px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 25px;
+}
+
+.quote .text,
+.attribution {
+    display: flex;
+    color: #1F2937;
+}
+
+.quote .text {
+    font-family: "light italic";
+    font-size: 36px;
+    font-style: italic;
+}
+
+.attribution {
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 300px;;
+}
+
