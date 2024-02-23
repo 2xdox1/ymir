@@ -6,6 +6,39 @@ body {
     flex-direction: column;
 }
 
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 200px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 15px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 35px;
+}
+
 
 /* Quote section */
 .quote {
@@ -36,7 +69,6 @@ body {
     margin-left: 300px;;
 }
 
-
 /* Newsletter section */
 div .newsletter {
     display: flex;
@@ -53,7 +85,7 @@ div .newsletter {
     flex-direction: column;
 }
 
-.newsletter .header {
+.newsletter .title {
     font-family: roboto;
     font-size: 30px;
     font-weight: 600;
