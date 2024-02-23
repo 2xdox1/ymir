@@ -6,8 +6,8 @@ body {
     flex-direction: column;
 }
 
-/* Header */
 
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -37,6 +37,60 @@ a {
     display: flex;
     flex-wrap: nowrap;
     gap: 35px;
+}
+
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero {
+    justify-content: center;
+    padding: 50px 200px 50px;
+    gap: 150px;
+    flex-wrap: nowrap;
+}
+
+.hero-left {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+}
+
+
+.hero-left .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-left .text {
+    color: #F9FAF8;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 11px 15px;
+    border-radius: 10px;
+    height: 50px;
+    width: 190px;
+}
+
+.hero-right {
+    transform: scale(0.75);
 }
 
 
