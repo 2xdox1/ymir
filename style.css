@@ -6,7 +6,6 @@ body {
     flex-direction: column;
 }
 
-
 /* Header */
 .header {
     display: flex;
@@ -47,9 +46,9 @@ a {
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 50px 200px 50px;
-    gap: 150px;
+    padding: 150px 200px 150px;
     flex-wrap: nowrap;
+    gap: 100px;
 }
 
 .left {
@@ -57,7 +56,6 @@ a {
     flex-flow: column nowrap;
     gap: 20px;
 }
-
 
 .left .title {
     font-size: 48px;
@@ -67,7 +65,7 @@ a {
 
 .left .text {
     color: #F9FAF8;
-    font-size: 18px;
+    font-size: 30px;
     color: #E5E7EB;
 }
 
@@ -85,13 +83,60 @@ a {
     width: 190px;
 }
 
-.right {
-    transform: scale(0.55);
+.right img {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    height: auto;
 }
 
 
 /* Information section */
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px 140px;
+    justify-content: center;
+    gap: 40px;
+}
 
+.information .title {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: roboto;
+}
+
+.boxes {
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.item img {
+    width: 250px;
+    height: auto;
+    border: 10px solid rgb(56, 130, 246);
+    border-radius: 15px;
+}
+
+.information .text {
+    font-size: 22px;
+    font-family: inherit;
+    max-width: 259px;
+    text-align: center;
+}
 
 
 /* Quote section */
