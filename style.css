@@ -1,9 +1,23 @@
 body {
-    font-family: roboto;
-    margin: 0;
-    border: 0;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    border: 0;
+    font-family: roboto;    
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 200px;
+    padding: 20px;
+    border-width: 4px;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 /* Header */
@@ -11,25 +25,27 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
-    color: #F9FAF8;
     padding: 10px 200px 0;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
 
+    /* Remove list-style for all unordered lists */
 ul {
     list-style: none;
 }
 
+    /* Remove text decoration and set color and font size for all anchor tags */
 a {
-    text-decoration: none;
-    color: #F9FAF8;
     font-size: 24px;
+    color: #F9FAF8;
+    text-decoration: none;
 }
 
 .logo {
+    padding: 15px;
     font-size: 40px;
     font-weight: 800;
-    padding: 15px;
 }
 
 .links {
@@ -38,82 +54,66 @@ a {
     gap: 35px;
 }
 
-
 /* Hero */
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    padding: 150px 200px 150px;
     flex-wrap: nowrap;
     gap: 100px;
+    padding: 150px 200px 150px;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
-
 .left {
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
     gap: 20px;
 }
-
-.left .title {
+.hero .title {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-}
-
-.left .text {
-    color: #F9FAF8;
-    font-size: 30px;
+} 
+.hero .text {
+    font-size: 35px;
     color: #E5E7EB;
 }
-
-.hero .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.hero button {
+    color: #E5E7EB;
     background-color: #3882f6;
-    color: #E5E7EB;
-    font-size: 22px;
-    font-weight: 700;
-    padding: 11px 15px;
-    border-radius: 10px;
-    height: 50px;
-    width: 190px;
 }
 
 .right img {
     display: flex;
     flex-direction: column;
-    width: 850px;
     height: auto;
+    width: 850px;
 }
-
 
 /* Information section */
 .information {
     display: flex;
     flex-direction: column;
-    padding: 100px 200px 140px;
     justify-content: center;
+    padding: 100px 200px 140px;
     gap: 40px;
 }
 
 .information .title {
     display: flex;
-    justify-content: center;
-    color: #1F2937;
+    justify-content: center; 
+    font-family: roboto;
     font-size: 36px;
     font-weight: 800;
-    font-family: roboto;
+    color: #1F2937;
 }
 
 .boxes {
     display: flex;
-    gap: 55px;
     justify-content: center;
     align-items: flex-start;
+    gap: 55px;
 }
 
 .item {
@@ -125,16 +125,16 @@ a {
 }
 
 .item img {
-    width: 250px;
     height: auto;
+    width: 250px;
     border: 10px solid rgb(56, 130, 246);
     border-radius: 15px;
 }
 
 .information .text {
-    font-size: 22px;
-    font-family: inherit;
     max-width: 259px;
+    font-family: inherit;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -142,12 +142,12 @@ a {
 /* Quote section */
 .quote {
     display: flex;
-    background-color: #E5E7EB;
-    padding: 150px;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
-    flex-flow: column;
     gap: 25px;
+    padding: 150px;
+    background-color: #E5E7EB;
 }
 
 .quote .text,
@@ -163,22 +163,21 @@ a {
 }
 
 .attribution {
+    margin-left: 300px;
     font-weight: 700;
     font-size: 25px;
-    margin-left: 300px;;
 }
-
 
 /* Newsletter section */
 div .newsletter {
     display: flex;
-    background-color: rgb(56, 130, 246);
-    color: rgb(249, 250, 248);
     justify-content: space-between;
     align-items: center;
     padding: 75px 150px;
     margin: 200px 300px;
+    color: rgb(249, 250, 248);
     border-radius: 12px;
+    background-color: rgb(56, 130, 246);
 }
 .newsletter .body {
     display: flex;
@@ -196,27 +195,17 @@ div .newsletter {
 }
 
 .newsletter .sign-up {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(56, 130, 246);
     color: rgb(249, 250, 248);
-    font-size: 20px;
-    font-weight: 700;
-    height: 50px;
-    width: 190px;
+    background-color: rgb(56, 130, 246);
     border-color: rgb(249, 250, 248);
-    border-width: 4px;
-    padding: 11px 15px;
-    border-radius: 10px;
 }
 
 /* Footer */
 .footer {
-    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    padding: 50px;
     color: #F9FAF8;
+    background-color: #1F2937;
 }
