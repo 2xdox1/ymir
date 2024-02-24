@@ -10,3 +10,9 @@ Landing Page Project of the Odin Project's Foundations course
 - 'milk' Photo by Daniel Sinoca on Unsplash
 -->
 
+<!-- in the CSS code, if it says: 
+- /* specified by 02.png */
+    then it is based on 02.png's instructions (here font family, weight, color, background-color was explicitly stated etc.)
+- /* based on 01.png (snapshot) */
+    then it is based on my guess based on 01.png sample outcome image
+--> 

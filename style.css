@@ -26,8 +26,20 @@ button {
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px 0;
-    color: #F9FAF8;
-    background-color: #1F2937;
+    background-color: #1F2937; /* guess based on 01.png */
+}
+
+.logo {
+    padding: 15px;
+    font-size: 24px; /* specified by 02.png */
+    font-weight: 800;
+    color: #F9FAF8; /* specified by 02.png */
+}
+
+.links {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 35px;
 }
 
     /* Remove list-style for all unordered lists */
@@ -37,22 +49,11 @@ ul {
 
     /* Remove text decoration and set color and font size for all anchor tags */
 a {
-    font-size: 24px;
-    color: #F9FAF8;
+    font-size: 18px; /* specified by 02.png */
+    color: #E5E7EB; /* specified by 02.png */
     text-decoration: none;
 }
 
-.logo {
-    padding: 15px;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.links {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 35px;
-}
 
 /* Hero */
 .hero {
@@ -62,28 +63,35 @@ a {
     flex-wrap: nowrap;
     gap: 100px;
     padding: 150px 200px 150px;
-    color: #F9FAF8;
-    background-color: #1F2937;
+    color: #F9FAF8; /* specified by 02.png */
+    background-color: #1F2937; /* specified by 02.png */
 }
+    
+    /* hero left side */
 .left {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.hero .title {
-    font-size: 48px;
-    font-weight: 900;
-    color: #F9FAF8;
+
+.main {
+    font-family: inherit;
+    font-size: 48px; /* specified by 02.png */
+    font-weight: 800;  /* extra bold, specified by 02.png */
+    color: #F9FAF8; /* specified by 02.png */
 } 
-.hero .text {
-    font-size: 35px;
-    color: #E5E7EB;
-}
-.hero button {
-    color: #E5E7EB;
-    background-color: #3882f6;
+.secondary {
+    font-family: inherit;
+    font-size: 18px; /* specified by 02.png */
+    color: #E5E7EB; /* specified by 02.png */
 }
 
+.hero button {
+    color: #E5E7EB; /* guess based on 01.png */
+    background-color: #3882f6; /* specified by 02.png */
+}
+
+    /* hero right side */
 .right img {
     display: flex;
     flex-direction: column;
@@ -100,13 +108,13 @@ a {
     gap: 40px;
 }
 
-.information .title {
+h2 {
     display: flex;
     justify-content: center; 
-    font-family: roboto;
-    font-size: 36px;
-    font-weight: 800;
-    color: #1F2937;
+    font-family: inherit;
+    font-size: 36px; /* specified by 02.png */
+    font-weight: 800; /* extra bold; specified by 02.png */
+    color: #1F2937; /* specified by 02.png */
 }
 
 .boxes {
@@ -127,7 +135,7 @@ a {
 .item img {
     height: auto;
     width: 250px;
-    border: 10px solid rgb(56, 130, 246);
+    border: 10px solid rgb(56, 130, 246); /* guess based on 01.png */
     border-radius: 15px;
 }
 
@@ -147,19 +155,19 @@ a {
     align-items: center;
     gap: 25px;
     padding: 150px;
-    background-color: #E5E7EB;
+    background-color: #E5E7EB; /* specified by 02.png */
 }
 
 .quote .text,
 .attribution {
     display: flex;
-    color: #1F2937;
+    color: #1F2937; /* guess based on 01.png */
 }
 
 .quote .text {
     font-family: "light italic";
-    font-size: 36px;
-    font-style: italic;
+    font-style: italic; /* specified by 02.png */
+    font-size: 36px; /* specified by 02.png */
 }
 
 .attribution {
@@ -175,9 +183,9 @@ div .newsletter {
     align-items: center;
     padding: 75px 150px;
     margin: 200px 300px;
-    color: rgb(249, 250, 248);
+    color: #f9faf8; /* guess based on 01.png */
     border-radius: 12px;
-    background-color: rgb(56, 130, 246);
+    background-color: #3882f6; /* specified by 02.png */
 }
 .newsletter .body {
     display: flex;
@@ -196,8 +204,8 @@ div .newsletter {
 
 .newsletter .sign-up {
     color: rgb(249, 250, 248);
-    background-color: rgb(56, 130, 246);
-    border-color: rgb(249, 250, 248);
+    background-color: rgb(56, 130, 246); /* specified by 02.png */
+    border-color: rgb(249, 250, 248); /* guess based on 01.png */
 }
 
 /* Footer */
@@ -206,6 +214,6 @@ div .newsletter {
     justify-content: center;
     align-items: center;
     padding: 50px;
-    color: #F9FAF8;
-    background-color: #1F2937;
+    color: #F9FAF8; /* guess based on 01.png */
+    background-color: #1F2937; /* specified by 02.png */
 }
