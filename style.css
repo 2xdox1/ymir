@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 0;
     border: 0;
     font-family: roboto;    
@@ -60,9 +61,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
     gap: 100px;
-    padding: 150px 200px 150px;
+    padding: 150px 200px;
     color: #F9FAF8; /* specified by 02.png */
     background-color: #1F2937; /* specified by 02.png */
 }
@@ -75,12 +75,14 @@ a {
 }
 
 .main {
+    width: 700px;
     font-family: inherit;
     font-size: 48px; /* specified by 02.png */
     font-weight: 800;  /* extra bold, specified by 02.png */
     color: #F9FAF8; /* specified by 02.png */
 } 
 .secondary {
+    width: 700px;
     font-family: inherit;
     font-size: 18px; /* specified by 02.png */
     color: #E5E7EB; /* specified by 02.png */
@@ -96,15 +98,20 @@ a {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 850px;
+    width: 800px;
 }
 
 /* Information section */
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
 .information {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 200px 140px;
+    padding: 50px 200px 140px;
     gap: 40px;
 }
 
@@ -177,17 +184,21 @@ h2 {
 }
 
 /* Newsletter section */
-div .newsletter {
+.newsletter {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-self: center;
+    width: 1300px;
     padding: 75px 150px;
     margin: 200px 300px;
     color: #f9faf8; /* guess based on 01.png */
     border-radius: 12px;
     background-color: #3882f6; /* specified by 02.png */
 }
-.newsletter .body {
+
+
+.newsletter .left {
     display: flex;
     flex-direction: column;
 }
